@@ -79,7 +79,7 @@ public class Proje {
     public static int secilenSayiArasiToplamaIslemi6(int x, int y) {
 
         int toplam = 0;
-        for (int i = x; i < y; i++) {                                                              // sayıları kullanıcıdan almıştım ve for döngüsüule her sayıyı 
+        for (int i = x; i < y; i++) {                                                              // sayıları kullanıcıdan aldım ve for döngüsüule her sayıyı 
             toplam = (toplam + i);                                                                 // toplama ekleyerek aradaki sayıların toplamını buldurdum
         }
         return toplam - x;
